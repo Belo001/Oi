@@ -1,0 +1,157 @@
+body{
+    background-image: url(ai-generated-group-of-graduates-.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 900px;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.logo{
+    color: darkcyan;
+    font-size: 30px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 27px;
+    font-size: 16px;
+}
+
+ul li a{
+    text-decoration: dotted;
+    color: darkcyan;
+    font-family: Arial;
+    font-size: large;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+ul li a:hover{
+    color: orangered;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: Helvetica;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orangered;
+    margin-top: 33px;
+    margin-left: 66px;
+    color: rgb(198, 16, 16);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 13px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: darkcyan;
+    border: 2px solid orangered;
+    margin-top: 33px;
+    color: rgb(255, 255, 255);
+    font-family: 15px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 600px;
+    height: auto;
+    margin: auto;
+    color: aliceblue;
+    position: relative;
+}
+
+.content p{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    width: auto;
+}
+
+h1{
+    font-size: large;
+    font-family: 'Times New Roman';
+    padding-left: 18px;
+    margin-top: 8%;
+    letter-spacing: 1.2px;
+}
+
+.cntnt{
+    width: 150px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.right-page{
+    width: 60%;
+    padding-right: 20px;
+}
+
+.flexContainer > div{
+    background-color: rgb(106, 104, 104);
+    height: 25px;
+    align-content: center;
+    padding: 10px;
+}
+
+.Comment-box{
+    padding-right: 6000px;
+    font-family: arial;
+    font-size: small;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
